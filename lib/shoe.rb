@@ -5,11 +5,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if @brand
-      BRANDS << brand
-    else
-      BRANDS << brand
-    end
+    BRANDS << brand
   end
 
   def cobble
