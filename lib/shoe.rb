@@ -10,6 +10,7 @@ class Shoe
     BRANDS << brand
   end
   BRANDS.uniq
+  binding.pry
 
   def cobble
     self.condition = "new"
