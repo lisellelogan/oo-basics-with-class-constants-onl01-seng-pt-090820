@@ -3,7 +3,7 @@ require 'pry'
 class Shoe
   attr_accessor :color, :size, :material, :condition
 
-  BRANDS = [].uniq
+  BRANDS = []
 
   def initialize(brand)
     @brand = brand
