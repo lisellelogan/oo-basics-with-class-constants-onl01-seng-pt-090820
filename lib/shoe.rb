@@ -8,12 +8,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-      if brand == brand
-        BRANDS.remove(brand)
-      else
-        BRANDS << brand
-      end
-      puts BRANDS
+    BRANDS << brand
     binding.pry
   end
 
